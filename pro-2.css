@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   
+    box-sizing: border-box;
+}
+.navbar{
+    background:rgb(94, 103, 236) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+   
+
+
+}
+.logo{
+    font-size: 2.5em; 
+    padding: 5px;
+    margin: 10px;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+
+}
+.nav{
+ 
+    
+    padding: 15px 15px 15px 15px;
+}
+.nav ul{
+    display: flex;
+    
+}
+.nav li{
+    list-style:none;
+    
+}
+.nav li a{
+    text-decoration: none;
+    padding: 10px 14px 10px 14px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    color: white;
+}
+.search{  
+    width: 25%;
+    background: white;
+    padding: 5px 12px 5px 12px;
+    align-items: center;
+    border-radius: 35px;
+}
+.search i{
+    font-size: 1.2rem;
+    color: rgb(165, 164, 164);
+}
+.src{
+    width: 90%;
+    font-size: 1.2rem;
+    padding: 5px;
+    border: none;
+    outline: none;  
+}
+
+.bar div{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 6px 20px;
+    border-radius: 35px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 6em;
+   
+    padding: 15px 0px 10px 0px;
+}
+.left{
+   padding: 10px;
+   margin: 10px;
+}
+.img-1{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left:  40px;
+   
+}
+.middle{
+  margin-right: 7rem;
+}
+.middle textarea{
+    background: lightblue;
+    border-radius: 15px;
+    padding: 20px; 
+    width: 100%; 
+   
+    outline: none;
+    border: none;
+    box-shadow: 5px 5px 5px white inset,-5px -5px 5px white inset;
+      
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 10px;
+    
+}
+.right a{
+    padding: 2px;
+
+}
+.right a i{
+    font-size: 2.5rem;
+    color: black;
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 10px;  
+}
+.middle-M{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 35px 35px 25px 35px;
+    padding: 15px;
+
+
+}
+.middle-M div{
+    
+    width: 150px;
+    height: 13vh;
+    text-align: start;
+    padding:10px 20px 0px 15px ;
+    justify-content: center;
+    border-radius:10px;
+    font-weight: bold;
+    color: white;
+   
+}
+.middle-M div:nth-child(1){
+    background: lightblue;
+    box-shadow: 2px 2px 5px lightblue ;
+}
+.middle-M div:nth-child(2){
+    background: rgb(125, 135, 245);
+    box-shadow: 2px 2px 5px rgb(125, 135, 245)
+}
+.middle-M div:nth-child(3){
+    box-shadow: 2px 2px 5px pink;
+    background:pink;
+}
+.middle-M div:nth-child(4){
+    box-shadow: 2px 2px 5px black;
+    background: black;
+}
+.bottom{
+    border-radius: 10px ;
+    display: flex;
+    background:  #483EFF;
+    width: 83%;
+    height: 60vh;
+   justify-content: space-around;
+   align-items: center;
+    margin: 10em 0em 0px 7em;
+   
+ 
+
+}
+.right-1{
+   
+    padding: 10px;
+    margin: 0px 0px 0px 20px;
+    
+
+
+}
+.right-1 div{
+    border: 2px solid white;
+    padding: 20px 30px ;
+    margin: 30px 5px 30px 5px ;
+    border-radius:10px ;
+    font-weight: bold;
+    color: white;
+
+  
+    
+}
+.right-1 div:nth-child(1){
+    background:  #BCE0F6;
+    border: 1px solid #BCE0F6
+    ;
+    color: black;
+}
+.left-1{ 
+    border-radius: 10px;
+    background: white;
+    width: 65%;
+    height: 50vh;
+    padding: 10px; 
+    position: relative; 
+}
+.left-1 h3,p{
+    padding: 15px;
+    
+}
+#btn-1{
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+    font-size: 1em;
+    padding: 8px 25px 8px 10px ;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+
+
+}
+
+.help{
+    float: right;
+    border: 1px solid black;
+     padding: 12px;
+     border-radius: 50px;
+     background: black;
+    position: fixed;
+    bottom: 0px;
+    right: 6em;
+    overflow: hidden;
+     
+    
+}
+.help i{
+   color: white;
+   font-size: 2em;
+   
+}
+
+
